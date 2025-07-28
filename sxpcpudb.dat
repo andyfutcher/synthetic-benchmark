@@ -1,0 +1,42 @@
+'Andy Futcher Dynamic CPU Support List.
+'(c) Copyright Andy Futcher 2003
+
+64=Intel 486
+65=Intel 486
+66=Intel 486SX
+67=Intel 487, DX2, or OverDrive
+68=Intel 486SL
+69=Intel 486SX2
+71=Write-Back Enhanced Intel DX2
+72=Intel DX4 or DX4 OverDrive
+81=Pentium�
+82=Pentium�
+84=Pentium�
+97=Pentium� Pro
+99=Pentium� II
+
+101=Pentium� II or Celeron�
+103=Pentium� II
+104=Pentium� III
+107=Celeron� 128
+240=Pentium� 4 Willamette
+241=Pentium� 4
+242=Mobile Celeron�
+
+328=Intel DX4 OverDrive
+337=Pentium� OverDrive
+338=Pentium� OverDrive
+339=Pentium� OverDrive
+340=Pentium� OverDrive
+355=Pentium� Pro OverDrive
+
+524385=Athlon� Slot-A
+524386=Athlon�
+524387=Duron�
+524388=Athlon� Thunderbird
+524390=Athlon� XP
+524391=Duron� Morgan
+524392=Mobile Athlon� XP
+524392=Athlon� Thoroughbred
+524394=Athlon� XP+
+'End file

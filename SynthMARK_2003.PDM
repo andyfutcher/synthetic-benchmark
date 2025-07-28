@@ -1,0 +1,338 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+Most Recent Deploy=Folder Deployment 1
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard Setup Package 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=d:\AndyFutcher\Code\SynthMARK XP\Installer\VBDeply
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\plugin.ocx=
+C:\WINDOWS\system32\wmp.dll=
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\wmp.dll=Yes
+C:\WINDOWS\system32\plugin.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\system32\plugin.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=SynthMark XP
+
+[Package|Dep File 1|IconGroups]
+Group0=SynthMark XP
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 1|SynthMark XP]
+Icon1=SynthMARK_XP.exe
+Title1=SynthMark XP
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=SynthMARK_XP.CAB
+DepCabRun=SynthMARK_XP.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack
+ProjectFolder=D:\AndyFutcher\Code\SynthMARK XP
+ServerSideCab=
+File1=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack\SynthMARK_XP.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+
+[Package|Dep File 2|Missing Dependency Information]
+C:\WINDOWS\system32\plugin.ocx=
+C:\WINDOWS\system32\wmp.dll=
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+
+[Package|Dep File 2|Files Added]
+
+[Package|Dep File 2|Files Removed]
+
+[Package|Dep File 2|Files In Project]
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 2|Install Locations]
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\system32\plugin.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=Yes
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=No
+
+[Package|Dep File 2|Distribution]
+Type=single
+Size=
+Title=SynthMark XP
+
+[Package|Dep File 2|IconGroups]
+Group0=SynthMark XP
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 2|SynthMark XP]
+Icon1=SynthMARK_XP.exe
+Title1=SynthMark XP
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 2|DepFile]
+DepCabFile=SynthMARK_XP.CAB
+DepCabRun=SynthMARK_XP.INF
+
+[Package|Dep File 2|Package]
+PackageFolder=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack
+ProjectFolder=D:\AndyFutcher\Code\SynthMARK XP
+ServerSideCab=
+File1=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack\SynthMARK_XP.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\plugin.ocx=
+C:\WINDOWS\system32\wmp.dll=
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=
+C:\Program Files\Andy Futcher\SynthMark XP\MCI32.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\AndyFutcher\Code\SynthMark XP\sxpcpuid.dll=Yes
+D:\AndyFutcher\Code\SynthMark XP\sxpcompq.dll=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Andy Futcher\SynthMark XP\MCI32.OCX=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Andy Futcher\DriverMAGIC Pro\Richtx32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\system32\plugin.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+D:\AndyFutcher\Code\SynthMark XP\synthmark_xp.dll=$(AppPath)
+D:\AndyFutcher\Code\SynthMark XP\sxpcpuid.dll=$(AppPath)
+D:\AndyFutcher\Code\SynthMark XP\sxpcompq.dll=$(AppPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Andy Futcher\SynthMark XP\MCI32.OCX=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\AndyFutcher\Code\SynthMARK XP\SynthMARK_XP.exe=No
+D:\AndyFutcher\Code\SynthMark XP\synthmark_xp.dll=No
+D:\AndyFutcher\Code\SynthMark XP\sxpcpuid.dll=No
+D:\AndyFutcher\Code\SynthMark XP\sxpcompq.dll=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SynthMark XP
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack
+ProjectFolder=D:\AndyFutcher\Code\SynthMARK XP
+ServerSideCab=
+File1=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack\setup.exe
+File2=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack\Setup.Lst
+File3=D:\AndyFutcher\Code\SynthMARK XP\Installers\VBPack\SynthMARK_XP.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SynthMark XP
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SynthMark XP]
+Icon1=SynthMARK_XP.exe
+Title1=SynthMark XP
+StartIn1=$(AppPath)
+Key1=Icon1

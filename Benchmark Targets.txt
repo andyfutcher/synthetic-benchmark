@@ -1,0 +1,51 @@
+Name			Description			Require Config
+
+1  CPU High-End 		: Cache & FSB			: No
+2  CPU Low-End		: Ram & Chipset			: No
+3  FPU High-End		: Single & Double			: No
+4  FPU Low-End		: Integer				: No
+5  Operating System	: Multi-Tasking			: No
+6  Operating System	: CPU vs. Mobo			: No
+7  Operating System	: Thread Distribution		: No
+8  Hard Drive		: Dynamic Write			: Yes (if more than one) (+warnings)
+9  Hard Drive		: Dynamic Read			: Yes (if more than one) (+warnings)
+10 Hard Drive		: Cached Read			: Yes (if more than one) (+warnings)
+11 Hard Drive		: Head Seek Time			: Yes (if more than one) (+warnings)
+12 Cd / DVD Drive		: Structured Read			: Yes (cd in drive) (+warnings)
+13 Cd / DVD Drive		: Head Seek Time			: Yes (cd in drive) (+warnings)
+14 Multi-Media		: Sound Card			: No (+warnings)
+15 Multi-Media		: CPU Render			: No
+16 Multi-Media		: Video Playback			: No (+warnings)
+17 Web Browsing		: URL Capture			: Yes (url)
+18 Network & Internet	: IP Ping Response			: Yes (Ip)
+19 Network & Internet	: Data Transfer			: Yes (Ip)
+20 Network & Internet	: Compression VS Raw		: Yes (Ip)
+21 Science Maths Emu	: Mouse Refresh			: No
+22 Science Maths Emu	: Newton's Laws			: No
+23 Science Maths Emu	: Financial			: No
+24 Science Maths Emu	: Data Compression		: No 
+
+BenchDatArray(0, 1) = "Redundant operations per second"
+BenchDatArray(1, 1) = "Complex operations per second"
+BenchDatArray(2, 1) = "Intrinsic maths equations per second (32bit)"
+BenchDatArray(3, 1) = "Integer based equations per second (16-bit)"
+BenchDatArray(4, 1) = "Threaded operations per second"
+BenchDatArray(5, 1) = "Operations per allocation cycle"
+BenchDatArray(6, 1) = "Average difference of ROPS"
+BenchDatArray(7, 1) = "Megabytes per second"
+BenchDatArray(8, 1) = "Megabytes per second"
+BenchDatArray(9, 1) = "Megabytes per second"
+BenchDatArray(10, 1) = "Disk seeks per second"
+BenchDatArray(11, 1) = "Megabytes per second"
+BenchDatArray(12, 1) = "Disk seeks per second"
+BenchDatArray(13, 1) = "Audio tones per second"
+BenchDatArray(14, 1) = "Frames per second (vectors, indices, points, verticies and lights)"
+BenchDatArray(15, 1) = "Frames per second"
+BenchDatArray(16, 1) = "Processed web pages per minuite"
+BenchDatArray(17, 1) = "Delay measured in milliseconds"
+BenchDatArray(18, 1) = "Kilobytes per second"
+BenchDatArray(19, 1) = "Compressed kilobytes per second"
+BenchDatArray(20, 1) = "Sequenced dynamic operations per second"
+BenchDatArray(21, 1) = "Equations processed per second"
+BenchDatArray(22, 1) = "IRR, NPer, NPV, SLN calculations per second"
+BenchDatArray(23, 1) = "Minimum kilobytes per second"

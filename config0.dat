@@ -1,0 +1,466 @@
+'SynthMark XP language: ENGLISH US (default)
+'(c) Copyright Andy Futcher 2003
+
+lang0=Unknown
+lang1=Chat && Comments
+lang2=Raw Scores
+lang3=Score Graphs
+lang4=System Info
+lang5=Web Browser
+lang6=Desktop
+lang7=Jump to
+lang8=Unknown Processor
+lang9=Hide
+lang10=Stop
+
+lang11=Important note to all firewall users...</b></b>Please make sure your firewall is setup to allow data transfers with your selected server port number, otherwise this port will be blocked by your firewall and no users will be able to join.
+lang12=Important note to all firewall users...</b></b>Please make sure your firewall is setup to allow data transfers with your selected server port number, otherwise you will not be able to access the host port you wont be able to connect.
+
+lang13=not ready, insert a disk!
+lang14=with
+lang15=KBytes Free
+lang16=contains
+lang17=KBytes
+
+lang18=cannot find server
+lang19=MHz
+lang20=mb
+
+lang21=Support Home Page
+lang22=Frequently Asked Questions
+lang23=Downloads & Patches
+lang24=Email Technical Support
+lang25=Begin a new benchmark session
+lang26=Open an exisiting benchmark file
+lang27=Start a new NETMark� server
+lang28=Find a public NETMark� server
+lang29=Edit your user profile
+
+lang30=Welcome to AndyFutcher� SynthMark� XP
+lang31=This is the Unregistered Version.
+lang32=Saving File:
+lang33=[Complete]
+lang34=Loading File:
+
+lang35=Ok
+lang36=No
+
+lang37=Local Area Network
+lang38=Working Online!
+lang39=Working Offline
+lang40=Checking...
+lang41=Local Area Network
+lang42=Connect online now...
+lang43=Offline
+lang44=Online
+lang45=Pending
+
+lang46=Internet Access
+lang47=Server Access
+lang48=Connection
+lang49=Connected
+lang50=Listening...
+
+lang51=SynthMark XP could not register this server on the AndyFutcher InterLAN network?
+lang52=Internet Server
+lang53=No servers found?
+lang54=Refresh Complete
+
+lang55=Found
+lang56=servers.
+
+lang57=Checking For Updates...
+lang58=Downloading New Version...
+lang59=Updating CPU Support...
+lang60=Updating Bag Language Support...
+lang61=Performing NETMark� Operations...
+lang62=Checking connectivity...
+
+lang63=A new SynthMark XP version has been found...</b></b>Do you want to update your current version of
+lang64=to version
+lang65=?</b></b>Please note: clicking yes will close your current session!
+lang66=Update SynthMark XP?
+
+lang67=No software updates found! Please try again later...
+lang68=Update!
+lang69=
+lang70=
+lang71=
+lang72=
+lang73=
+lang74=
+lang75=
+lang76=
+lang77=
+lang78=
+lang79=
+lang80=
+lang81=
+lang82=
+lang83=
+lang84=
+lang85=
+lang86=
+lang87=
+lang88=
+lang89=
+lang80=
+
+menub0=File
+menub1=View
+menub2=NETMark�
+menub3=Benchmarks
+menub4=Run
+menub5=Tools
+menub6=Window
+menub7=Help
+
+expfr0=5
+expfr1=0,1,2,3,4
+expfr2=5,
+expfr3=0,1,2,3
+expfr4=4,5
+expfr5=2
+expfr6=0,4
+expfr7=0,1,2,3,4
+expfr8=0,1,2,3,4,5
+
+optbx0=Show on Startup
+optbx1=Hard Drive Benchmarks (Read && Write)
+optbx2=Cd-Rom && Dvd-Rom Benchmarks (Read Only)
+optbx3=Web && Browser Benchmarks
+optbx4=This is an Internet server type
+optbx5=Make this a dedicated server
+optbx6=List this server publically
+optbx7=Enable chat catchup system
+optbx8=Chat Section
+optbx9=Scores Tables
+optbx10=Score Graphs
+optbx11=Computer information
+optbx12=Always use bad language filter.
+optbx13=I want to connect to a Internet server type
+optbx14=Quick Help
+optbx15=Use quick tool tips
+optbx16=Show system processes (advanced users)
+optbx17=Always use bad language filter...
+optbx18=Always check for internet connectivity on startup.
+optbx19=Enable SynthMark XP update detection (recommended).
+
+cmdbt0=Close
+cmdbt1=Next Tip
+cmdbt2=Exit
+cmdbt3=Cancel
+cmdbt4=Ok
+cmdbt5=Cancel
+cmdbt6=Refresh
+cmdbt7=Default
+cmdbt8=Host
+cmdbt9=Cancel
+cmdbt10=Refresh
+cmdbt11=Connect
+cmdbt12=Specifiy...
+cmdbt13=Cancel
+cmdbt14=Default
+cmdbt15=Print
+cmdbt16=Cancel
+cmdbt17=Ok
+cmdbt18=Cancel
+cmdbt19=Default
+cmdbt20=Connect
+cmdbt21=Cancel
+cmdbt22=Ok
+cmdbt23=Cancel
+cmdbt24=Restart
+cmdbt26=Add...
+cmdbt27=Remove
+cmdbt28=Refresh
+cmdbt29=Lock
+cmdbt30=Cancel
+cmdbt31=<< Details
+cmdbt32=Switch...
+cmdbt33=End Task
+cmdbt34=Close
+cmdbt35=Ok
+cmdbt36=Cancel
+cmdbt37=Disconnect
+cmdbt38=Close
+cmdbt40=Ok
+cmdbt41=Cancel
+cmdbt42=Apply
+cmdbt43=Update...
+cmdbt44=Ok
+cmdbt45=Cancel
+cmdbt46=Update
+cmdbt47=Send Info...
+cmdbt48=Cancel
+cmdbt49=Unlock
+cmdbt50=Ok
+cmdbt51=Save
+cmdbt52=Yes
+
+tltpa10=Clicking this button will start a new (offline) benchmark session.
+tltpa11=Clicking this button will allow you to open an existing benchmark file (.sxp) on your system.
+tltpa14=Clicking this button saves all the information (described by content manager) into a file for later use.
+tltpa17=Clicking this button will allow your to print all (or specific sections) of the current benchmark session.
+tltpa26=This button will allow you to search for information (within the current session, help or AndyFutcher.com) on a specific topic.
+tltpa71=This button will take you to the integrated chat && comments system. (used online and offline)
+tltpa72=This button will show you a tabular list displaying all the systems, benchmarks and scores for each platform. (just yours offline)
+tltpa73=This button will make a graphical representation of the benchmark scores for improved comparision.
+tltpa74=This button will show you all the system information that applys to the benchmarks. (also stored in .sxp files)
+tltpa75=This button will take you to the SynthMark integrated web browser to surf the web.
+tltpa83=Clicking this button will open the Ask the Xpert help feature, for personallized help && support.
+tltpa80=Clicking this button will open the Help system, showing you a contents, index and search feature.
+
+tltpa120=This benchmark aims to test the high speed componenets related to your CPU.</b>Your systems Cache Memory speed && Front Side Bus speed have a large effect on the resulting scores.
+tltpa121=This benchmark aims to test the generally slower componenets related to data processing.</b>Your Random Access Memory type and Chipset have a larger effect on the scores.
+tltpa122=This benchmark tests the speed of your CPU and FPU ability to process very complicated mathematical calulations.</b>Your CPUs internal Floating point unit has a pivitol role in this test.
+tltpa123=This benchmark tests the speed of your computers ability to manipulate simple numbers (integers).</b>Integers are used heavlily in internal software code for loops && long processing streams.
+tltpa124=This test determines your systems ability to handle processing power if every TSR(service) running requested the maximum processor usage.</b>Great theoretical multi-tasking benchmark.
+tltpa125=This benchmark reveals how well your CPU and your RAM work together.</b>In short if the scores are above 1000, more(or faster) RAM will benefit your system more than a new CPU.
+tltpa126=This benchmark tests your CPUs consistancy when in heavy processing situations.</b>A very poor score indicates heavy 3rd party task usage, or possibily a hardware heat problem.
+tltpa127=This benchmark tests your selected hard drives ability to read && write large files.</b>Your hard drives RPM (revolutions per minute) greatly effect the resulting scores.
+tltpa128=This test focuses on preventing your OS and HDD cache memory from optimizing the data access.</b>The scores returned with this benchmark indicate a more accurate true disk performance.
+tltpa129=This benchmark tests your OS and hard drives ability to manage your data File Allocation Table.</b>Your FAT performance is greatly improved by Defraging regualarly.
+tltpa130=This test focuses on your OS and hard drives ability to reduce data redundancy(repetition) in your disks access.</b>This is the exact opposite to the Raw Disk benchmark.
+tltpa131=This benchmark tests your CD/DVD drives ability to read liner data at high speed.</b>Scores are improved by having a faster rated drive (eg. x52), and some CD-burners will do very well too!
+tltpa132=This benchmark is very similar to the HDD FAT benchmark, modified for CD/DVD drives.</b>Scores indicate the laser head movement speed and media quality.
+tltpa133=This very innovative benchmark tests your sound card (and drivers) ability to output as many (best quaility) notes as possible.</b>Scores are improved by having more audio channels.
+tltpa134=This benchmark tests your CPUs FPS(frames per second) when internally rendering 3D graphics.</b>Very high scores indicate your system will be complemented by a fast graphics card for games.
+tltpa135=This benchmark tests your CPUs && grahics card ability to render video movies at high speeds.</b>Scores are quite relative to your computers movie rendering ability on your PC.
+tltpa136=This benchmark is very dependant on your countries backbone, ISPs priority settings and connection quality to achieve websurfing scores rated in pages per minite.</b>We suggest competeting with local competition as the Host chooses the URL list. ;-)
+tltpa137=This benchmark tests your network or internet bi-directional data transfur speeds.</b>The higher the scores the better your connection is at online gaming and data hosting.
+tltpa138=This benchmark tests your network or internet ability to transfur large data packets.</b>The higher scores the better your connection is at downloading/uploading/data stream hosting.
+tltpa139=This interesting benchmark tests your connection speed in averaged sized random raw data transfurs, and then the same data packets under a compression protocal.</b>PC speed does effect scores.
+tltpa140=This emulated benchmark performs a series of caluclations and operations generally used in content creation software && other common software packages.</b>Another great theoretical benchmark.
+tltpa141=This test is science benchmark, using Newton's physics laws as a base for the benchmarks equastions.</b>A classic theoretical benchmark based on real life calculations.
+tltpa142=This benchmark tests your computers ability to process finacial calulations, most commonly used in accounting packages and spreadsheets.</b>Great theoretical office performace benchmark.
+tltpa143=This benchmark tests your computers number crunching abilities specifically related to data compression.</b>Scores reflect performance of common data compression systems.
+
+benaa0=Cache && FSB
+benaa1=Ram && Chipset
+benaa2=Single Precision
+benaa3=Integer
+benaa4=Multi-Tasking
+benaa5=CPU vs. Mobo
+benaa6=Thread Distribution
+benaa7=Dynamic Write
+benaa8=Dynamic Read
+benaa9=Cached Read
+benaa10=Head Seek Time
+benaa11=Structured Read
+benaa12=Head Seek Time
+benaa13=Sound Card
+benaa14=Windows GUI
+benaa15=Video Playback
+benaa16=URL Capture
+benaa17=IP Ping Response
+benaa18=Data Transfer
+benaa19=Compression vs. Raw
+benaa20=Mouse Refresh
+benaa21=Mouse Click
+benaa22=Keyboard Refresh
+benaa23=Keyboard Press
+
+benab0=Redundant operations per second
+benab1=Complex operations per second
+benab2=Intrinsic maths equations per second (32bit)
+benab3=Integer based equations per second (16-bit)
+benab4=Threaded operations per second
+benab5=Operations per allocation cycle
+benab6=Average difference of ROPS
+benab7=Megabytes per second
+benab8=Megabytes per second
+benab9=Megabytes per second
+benab10=Disk seeks per second
+benab11=Megabytes per second
+benab12=Disk seeks per second
+benab13=Direct sound buffer injections
+benab14=Polygons per second
+benab15=Frames per second
+benab16=Processed web pages per minuite
+benab17=Network pings per second
+benab18=Bi-Directional Kilobytes per second
+benab19=Compressed kilobytes per second
+benab20=Hertz
+benab21=Clicks per second
+benab22=Hertz
+benab23=Taps per second
+
+benac0=Central Processing
+benac1=Central Processing
+benac2=Floating Point
+benac3=Floating Point
+benac4=Operating System
+benac5=Operating System
+benac6=Operating System
+benac7=Hard Drive
+benac8=Hard Drive
+benac9=Hard Drive
+benac10=Hard Drive
+benac11=CD/DVD Drive
+benac12=CD/DVD Drive
+benac13=Multi-Media
+benac14=Multi-Media
+benac15=Multi-Media
+benac16=Web Processing
+benac17=Network && Internet
+benac18=Network && Internet
+benac19=Network && Internet
+benac20=Interactive
+benac21=Interactive
+benac22=Interactive
+benac23=Interactive
+
+benad0=ROPS
+benad1=COPS
+benad2=MEPS
+benad3=IBEPS
+benad4=TOPS
+benad5=OPAC
+benad6=AD-ROPS
+benad7=MB/S
+benad8=MB/S
+benad9=MB/S
+benad10=DSPS
+benad11=MB/S
+benad12=DSPS
+benad13=DSBI
+benad14=PPS
+benad15=FPS
+benad16=PWPM
+benad17=NPPS
+benad18=KB/S
+benad19=CKB/S
+benad20=Hz
+benad21=CPS
+benad22=Hz
+benad23=TPS
+
+short0=Getting Started
+short1=Benchmarking Options
+short2=NETMark� Connectivity
+short3=Tools && Features
+short4=AndyFutcher Services
+short5=Dynamic Graph Options
+short6=Additional Tools
+short7=Other SynthMark Places
+short8=Help && Support
+
+short9=Platform Name
+short10=Operating System
+short11=CPU Type
+short12=CPU Speed
+short13=Memory Info
+short14=Comments
+
+short15=Platform Name
+short16=Actual Score
+short17=Stability
+short18=Memory Usage
+short19=Tasks Running
+short20=Comment
+
+short21=Server Name
+short22=Location
+short23=Version
+
+short24=Targeted Websites
+short25=Status
+
+short26=Benchmark Tasks
+short27=Status
+short28=Type
+
+short29=System Tasks
+short30=Process Id
+
+short31=Connection Type
+
+short32=Say To All
+short33=Wisper To...
+short34=T1 or faster
+short35=56K or ISDN
+short36=33.6 or slower
+short37=Maximum (slowest)
+short38=High
+short39=Low
+short40=Lowest (fastest)
+short41=Auto-detect connection type
+short42=Direct or Modem access
+short43=Via a Proxy server
+
+short44=&Begin a new benchmark session
+short45=&Open an exisiting benchmark file
+short46=Display the SynthMark XP &Options menu
+short47=Manage system &processes
+short48=Run the &burn-in wizard
+short49=&Configure selected benchmarks
+short50=Begin a &normal benchmark!
+short51=Perform a &hardware benchmark
+short52=&Start a new NETMark� server
+short53=&Find a public NETMark� server
+short54=Find a NETMark� &community server
+
+short55=&Edit your user profile
+short56=&Protect your saved benchmarks
+short57=&Print current benchmark info
+short58=View content &storage settings
+short59=Display the SynthMark XP &Options menu
+short60=Check for any SynthMark XP &updates?
+short61=Submit comunity &registration form
+short62=Visit SynthMark &message boards
+short63=Switch &graphs between 2D/3D
+short64=Switch between &Line or Bar graphs
+short65=Show the graph &ledgend
+short66=Manage system &processes
+short67=Load a common benchmarking &preset
+short68=&Online chat && comments
+
+short69=&Result scores table
+short70=Result &graphs
+short71=&System information
+short72=Internet &browser
+short73=Read the &help documentation
+short74=Get &support on the web
+short75=Send a question via &Ask the Xpert
+short76=Show SynthMark XP &Tips
+
+short77=Exit SynthMark?
+short78=SynthMark Tips
+short79=Configure Benchmarks
+short80=New NETMark� server
+short81=Search for servers
+short82=Print Benchmark
+short83=Your User Profile
+short84=Specify Server
+short85=Password Required
+short86=Benchmark Progress
+short87=Advanced Task Manager
+short88=Add Website
+short89=Connection Status
+short90=Options
+short91=Please Wait...
+short92=Content Storage
+short93=Processor Support
+short94=Protect Tool
+short95=About
+
+short96=Say
+short97=Commands
+
+short98=New
+short99=Save
+short100=Chat
+short101=Scores
+short102=Graphs
+short103=Info
+short104=Web
+short105=Help
+
+short106=Go
+short107=Begin
+
+short108=Is a
+short109=benchmark measured in
+
+'End file
