@@ -1,0 +1,63 @@
+'SynthMark XP Help File: ENGLISH US (default)
+'(c) Copyright Andy Futcher 2003
+
+lang0=Community Server Registration Return
+lang1=Your message has been sent to your outbox, and will be sent at your mail clients disgression.
+lang2=Are you sure you want to do this?
+lang3=Total found:
+lang4=Building help index database...
+lang5=Searching the help database...
+lang6=Found:
+lang7=No topics found?
+'lang8=
+'lang9=
+'lang10=
+
+frmlb0=Search:
+frmlb1=Select Topic:
+frmlb3=Type in a keyword to find:
+'frmlb5=
+
+diflb1=Ask the Xpert
+diflb2=Email Support Services
+diflb3=Your Full Name:
+diflb4=Your Order ID:
+diflb5=Basic Description:
+diflb6=Full Descrpition:
+diflb7=Computer Info:
+diflb9=Community Server Registration
+diflb10=Your Name:
+diflb11=Company Name:
+diflb12=Host Server Ip:
+diflb13=Host Server Port:
+diflb14=Time Restrictions:
+diflb15=Your Website:
+diflb16=Your Banner:
+diflb17=Additional Info:
+diflb20=EG: 192.168.28.41
+diflb22=EG: (+2:00) GMT 12-00 to 6:00 if any.
+diflb23=EG: http://www.AndyFutcher.com
+diflb24=EG: http://www.AndyFutcher.com/Andy.jpg
+
+cmd0=Send
+cmd1=Reset
+cmd2=Send
+cmd3=Reset
+
+cmdbt0=Search
+cmdbt1=Display >>
+cmdbt2=Display
+
+short0=Topics
+short1=Rank
+short2=Topics
+short3=Back
+short4=Contents
+short5=Index
+short6=Search
+short7=Support
+short8=Registration
+short9=Please Wait
+short10=Section
+
+'End file
