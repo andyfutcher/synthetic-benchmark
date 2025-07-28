@@ -1,0 +1,309 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="bench008_files/filelist.xml">
+<link rel=Edit-Time-Data href="bench008_files/editdata.mso">
+<title>SynthMark XP Benchmarking : Web Processing Benchmark</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Subject>Benchmark: Web Processing</o:Subject>
+  <o:LastAuthor>Andy Futcher</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>740</o:TotalTime>
+  <o:Created>2003-08-01T23:56:00Z</o:Created>
+  <o:LastSaved>2003-08-01T23:56:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>317</o:Words>
+  <o:Characters>1810</o:Characters>
+  <o:Lines>15</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2123</o:CharactersWithSpaces>
+  <o:Version>10.4219</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:TargetScreenSize>1024x768</o:TargetScreenSize>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Verdana;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:red;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Verdana;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:645597112;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1851389942 470351873 470351875 470351877 470351873 470351875 470351877 470351873 470351875 470351877;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+<meta http-equiv=Content-Language content=en-za>
+<meta name="VI60_defaultClientScript" content=VBScript>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="25602">
+  <o:colormenu v:ext="edit" fillcolor="white"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-ZA link=blue vlink=red style='tab-interval:36.0pt'
+alink="#000080" topmargin=0 leftmargin=0>
+
+<div class=Section1>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:
+ 0cm 9.0pt 0cm 9.0pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-lastrow:yes'>
+  <td width="100%" valign=top style='width:100.0%;padding:0cm 9.0pt 0cm 9.0pt'>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:Tahoma;color:#333333'>The Web Processing
+  Benchmark.<o:p></o:p></span></b></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>See Also: <a href="bench011.html">Loading &amp; Saving
+  benchmark presets</a>, <a href="bench000.html">Back to Main</a>.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>This benchmark is all about one thing, bandwidth! And not just
+  any bandwidth, turn around time comes into play here too. The objective is to
+  see who computer and internet connection can completely download and visit
+  certain sites before the next guys can. Some of the major differences is this
+  benchmark is configured by your server or by voting.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><u><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>Tweaking your web processing performance:<o:p></o:p></span></u></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+  l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+  style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&middot;<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>If you are the server, choose local websites! </span><span
+  style='font-size:10.0pt;font-family:Wingdings;mso-ascii-font-family:Tahoma;
+  mso-hansi-font-family:Tahoma;mso-bidi-font-family:Tahoma;color:#333333;
+  mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>J</span></span><span
+  style='font-size:9.0pt;font-family:Tahoma;color:#333333'> Others can vote in
+  URL&#8217;s but you ultimately have the power of choice.<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+  l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+  style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&middot;<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>Of course your type of connection, ISP performance and local
+  backbone will all have a large effect on this benchmark.<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+  l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+  style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&middot;<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>Don&#8217;t use your connection for anything else when you run
+  this benchmark.<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+  l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+  style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&middot;<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>NETMark will see to it that even if you are the server, you
+  connection will have a fair chance to compete.<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+  l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+  style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&middot;<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>Don&#8217;t even bother with your internet caching systems,
+  because SynthMark XP will make it re-download the entire web page.<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+  l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+  style='font-size:9.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&middot;<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>Also don&#8217;t use abbreviated sites, rather use: <a
+  href="http://www.AndyFutcher.com/index.html">http://www.AndyFutcher.com/index.html</a>
+  than just <a href="http://www.AndyFutcher.com/">http://www.AndyFutcher.com</a>.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>When competing with this benchmark, we suggest competing with people
+  who have a similar connection type to you, and even better if they live in
+  your country!<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'>Only then will it be connection orientated, because each
+  country has its own limits when it comes to international site performance.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><span style='font-size:9.0pt;font-family:Tahoma;
+  color:#333333'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Tahoma;color:#333333'><a
+  href="copyright.html">Copyright Information</a> &#8211; <a href="terms.html">Terms
+  &amp; Conditions</a> &#8211; <a href="privacy.html">Privacy Policy</a></span><span
+  style='font-size:9.0pt;font-family:Tahoma;color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-family:Tahoma'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
