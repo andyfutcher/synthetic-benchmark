@@ -1,6 +1,7 @@
 # Synthetic-Benchmark-2003
 A legacy program I wrote in 2003 - SynthMark XP featured 24 benchmarks, running under either Synthetic or Real-time modes, and featured NETMark technology which allows you to chat, compete and compare benchmarks online.
 
+![A screenshot of my awesome application](synthmark.png)
 
 ## Features Summary:
 - Benchmark versus up to 256 people over the internet & or your network.
